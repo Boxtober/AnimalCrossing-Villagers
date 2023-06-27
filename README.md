@@ -1,3 +1,88 @@
+#  API Animal Crossing 
+
+Voici la structure complète d'un objet villageois renvoyé par l'API https://acnhapi.com/v1a/villagers/ :
+
+json {
+  "id": 1,
+  "file-name": "admiral",
+  "name": {
+    "name-USen": "Admiral",
+    "name-EUen": "Admiral",
+    "name-EUde": "Admiral",
+    "name-EUes": "Admiral",
+    "name-USes": "Admiral",
+    "name-EUfr": "Amiral",
+    "name-USfr": "Amiral",
+    "name-EUit": "Amir",
+    "name-EUnl": "Admiral",
+    "name-CNzh": "阿宏",
+    "name-TWzh": "阿宏",
+    "name-JPja": "イッテツ",
+    "name-KRko": "잭슨",
+    "name-EUru": "Адмирал"
+  },
+  "personality": "cranky",
+  "birthday": "January 27",
+  "species": "bird",
+  "gender": "male",
+  "catch-phrase": "aye aye",
+  "hobby": "nature",
+  "image_uri": "https://acnhapi.com/v1/images/villagers/1",
+  "icon_uri": "https://acnhapi.com/v1/icons/villagers/1",
+  "bubble-color": "#798040",
+  "text-color": "#fffce9",
+  "saying": "Only quitters give up.",
+  "catch-translations": {
+    "catch-USen": "aye aye",
+    "catch-EUen": "aye aye",
+    "catch-EUde": "Heho",
+    "catch-EUes": "ajolá",
+    "catch-USes": "ajolá",
+    "catch-EUfr": "haaaan",
+    "catch-USfr": "haaaan",
+    "catch-EUit": "oooh",
+    "catch-EUnl": "vooruit",
+    "catch-CNzh": "你懂的",
+    "catch-TWzh": "你懂的",
+    "catch-JPja": "ってワケで",
+    "catch-KRko": "그럼, 그럼",
+    "catch-EUru": "да, да"
+  },
+  "museum-phrase": "Though I must say, I find myself wondering why the sea is salty. And why it refuses to embrace me. ...Sigh...",
+  "image": "admiral",
+  "icon": "admiral"
+}
+
+# Voici la signification des différentes propriétés de l'objet :
+
+id : L'identifiant unique du villageois.
+file-name : Le nom du fichier de l'image du villageois.
+name : Les différentes traductions du nom du villageois dans différentes langues.
+personality : La personnalité du villageois.
+birthday : La date de naissance du villageois.
+species : L'espèce du villageois.
+gender : Le genre du villageois.
+catch-phrase : La phrase de signature du villageois.
+hobby : Le passe-temps du villageois.
+image_uri : L'URL de l'image représentant le villageois.
+icon_uri : L'URL de l'icône représentant le villageois.
+bubble-color : La couleur de la bulle de dialogue du villageois.
+text-color : La couleur du texte de la bulle de dialogue du villageois.
+saying : La citation caractéristique du villageois.
+catch-translations : Les traductions de la phrase de signature du villageois dans différentes langues.
+museum-phrase : La phrase spécifique du villageois lorsqu'il est exposé dans le musée.
+image : Le nom du fichier de l'image du villageois (utilisé dans l'API pour construire l'URL de l'image).
+icon : Le nom du fichier de l'icône du villageois (utilisé dans l'API pour construire l'URL de l'icône).
+
+Ces informations fournissent divers détails sur chaque villageois, tels que leur nom, leur personnalité, leur espèce, leur genre, leur date de naissance, leur passe-temps, leur citation, leur image, etc. Vous pouvez utiliser ces informations pour afficher les détails spécifiques de chaque villageois dans votre application Animal Crossing.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +153,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
