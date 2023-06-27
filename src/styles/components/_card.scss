@@ -1,6 +1,7 @@
 .card {
+  
   position: relative;
-  height: 100px;
+  height: 150px;
   width: 160px;
   border-radius: 4px;
   transition: 0.3s;
@@ -36,7 +37,7 @@
     transition: 0.3s;
   }
   img {
-    height: 100px;
+    height: 150px;
     width: 160px;
     object-fit: cover;
     border-radius: 10px;

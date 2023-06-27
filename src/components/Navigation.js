@@ -11,11 +11,11 @@ const Navigation = () => {
                     to={"/"} 
                     className={(nav) => (nav.isActive ? "nav-active" : "")}> { 
                     /** applique le style de la class "nav-active" UNIQUEMENT si elle est active, SINON ne change rien*/}  
-                        <li>Accueil</li>
+                        <li>Home</li>
                 </NavLink>
 
                 <NavLink to={"/about"} className={(nav) => (nav.isActive ? "nav-active" : "")}>
-                    <li>A propos</li>
+                    <li>About</li>
                 </NavLink>
             </ul>
         </div>
