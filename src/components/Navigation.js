@@ -17,6 +17,11 @@ const Navigation = () => {
                 <NavLink to={"/about"} className={(nav) => (nav.isActive ? "nav-active" : "")}>
                     <li>About</li>
                 </NavLink>
+
+                <NavLink 
+                    to={"https://acnhapi.com/"} target='_blank' className={(nav) => (nav.isActive ? "nav-active" : "")}> 
+                        <li>Api</li>
+                </NavLink>
             </ul>
         </div>
             

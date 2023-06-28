@@ -1,0 +1,11 @@
+.about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 36px;
+}
+
+#root > div > div.about-container > img {
+    width: 55%;
+    border-radius: 25px;
+}

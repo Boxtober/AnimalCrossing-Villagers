@@ -53,14 +53,16 @@ const Countries = () => {
 
     return (
         <div className='countries'>
-            <ul className="ratio-container">
 
-                <input 
+            <input 
                     type="range" 
-                    min="1" max="400" 
+                    min="1" max="391" 
                     defaultValue={rangeValue} 
                     onChange={(e) => setRangeValue(e.target.value)}
                 />
+            <ul className="ratio-container">
+
+                
 
                 {radios.map((species) => (
                     <li>
@@ -76,10 +78,10 @@ const Countries = () => {
                 ))}
             </ul>
 
+            {selectedRadio && <button onClick={() => setSelectedRadio("")}>All villagers</button>}
+            
             <ul>
-                {selectedRadio && 
-                    <button onClick={() => setSelectedRadio("")}>All</button>
-                }
+                
                 {data
                     .filter((character) => character.species.includes(selectedRadio))
                     .slice(0, rangeValue)
