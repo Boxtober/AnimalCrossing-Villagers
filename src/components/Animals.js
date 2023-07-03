@@ -2,11 +2,12 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Card from './Card';
 
+const Animals = () => {
 
-const Countries = () => {
     const [data, setData] = useState([]);
     const [rangeValue, setRangeValue] = useState(36);
     const [selectedRadio, setSelectedRadio] = useState('')
+
     const radios = [
         "Alligator",
         "Anteater",
@@ -52,8 +53,7 @@ const Countries = () => {
     }, []);
 
     return (
-        <div className='countries'>
-
+        <div className='animals'>
             <input 
                     type="range" 
                     min="1" max="391" 
@@ -61,9 +61,6 @@ const Countries = () => {
                     onChange={(e) => setRangeValue(e.target.value)}
                 />
             <ul className="ratio-container">
-
-                
-
                 {radios.map((species) => (
                     <li>
                         <input 
@@ -79,9 +76,8 @@ const Countries = () => {
             </ul>
 
             {selectedRadio && <button onClick={() => setSelectedRadio("")}>All villagers</button>}
-            
+
             <ul>
-                
                 {data
                     .filter((character) => character.species.includes(selectedRadio))
                     .slice(0, rangeValue)
@@ -89,10 +85,9 @@ const Countries = () => {
                     <Card key={index} character={character} />
                 ))}
             </ul>
+            
         </div>
     );
 };
-
-
-export default Countries;
+export default Animals;
 

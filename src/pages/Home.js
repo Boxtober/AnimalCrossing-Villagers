@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Logo from '../components/Logo';
-import Countries from '../components/Countries';
+import Animals from '../components/Animals';
 import Footer from '../components/Footer';
 
 const Home = () => {
@@ -9,8 +9,8 @@ const Home = () => {
         <div>
             <Logo />
             <Navigation />
-           <Countries />
-           <Footer />
+            <Animals />
+            <Footer />
         </div>
     );
 };

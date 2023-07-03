@@ -10,10 +10,7 @@ const About = () => {
             <Navigation />
             <h3>About</h3>
             <br />
-
-            
             <div className="about-container">
-                
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque suscipit optio, unde, incidunt dolor laudantium beatae quia porro placeat nihil, sit ipsum dolore similique neque quidem fugiat ullam ab! Porro?
                     Ullam dicta, molestiae molestias fuga earum numquam explicabo animi sit veniam quis? Fuga ducimus magnam minus consequuntur atque, voluptas culpa ullam veniam, necessitatibus quod vitae alias? Ut quae officiis eaque?
@@ -23,7 +20,7 @@ const About = () => {
                     Delectus quis perferendis debitis porro nemo, velit odio voluptatum optio animi quas voluptatibus sapiente doloribus ipsam alias dolorum dolore totam qui quaerat aliquid facere corrupti at. Id suscipit unde in?
                     Odit reprehenderit inventore rem eos numquam sapiente. Voluptatum in, saepe fugit dolorum aliquid pariatur quisquam corrupti laudantium iusto dicta velit sapiente nam sequi quam omnis quod id perspiciatis vitae neque.
                     Id deleniti ut at pariatur magni voluptatibus, sequi ipsam necessitatibus rerum cum iure repellat optio quos non in dolores natus placeat, praesentium architecto sapiente eligendi! Voluptas eveniet consectetur fugit neque!
-                    </p>
+                </p>
                 <img src={tomnook} alt="" />
             </div>
         </div>

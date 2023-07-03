@@ -8,9 +8,13 @@ const Card = ({ character }) => {
                 alt={character.name["name-USen"]}
             />
             <div className="infos">
+                <br />
                 <h2>{character.name["name-USen"]}</h2>
-                <h4>{character.species}</h4>
                 <p>{character.personality}</p>
+                <p>{character.birthday}</p>
+                <p>{character.hobby}</p>
+                <h4>" {character.saying} "</h4>
+                <br />
             </div>
         </li>
     );

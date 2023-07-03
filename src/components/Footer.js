@@ -6,8 +6,7 @@ const Footer = () => {
         <div className="footer">
             <img src={imgFooter} alt="" className='imgFooter'/>
             <h2>
-    
-            <a href="https://github.com/Boxtober/AnimalCrossing-Villagers" target='_blank'>See code !</a>
+                <a href="https://github.com/Boxtober/AnimalCrossing-Villagers" target='_blank'>See code !</a>
             </h2>
         </div>
     );

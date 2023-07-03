@@ -38,56 +38,53 @@ body {
   background: $white;
   font-family: $font-1;
   padding: 2.5em;
-  // @include verticalCenter;
 }
+
 li {
   list-style-type: none;
   font-size: 16px;
 }
 
-/***********/
-
 h3 {
   font-family: $font-2;
-    margin-left: 10px;
+  margin-left: 10px;
+  color: $color-3;
+  font-size: 40px;
+}
+
+h4 {
+  font-family: $font-3;
+  font-size: 11px;
+  padding: 2px;
+}
+
+ul, input, button {
+  font-size: 26px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  padding: 0px 39px;
+}
+
+#root > div > div.footer > h2 > a {
+  margin-top: 30px;
+  font-size: 26px;
+  color: $color-1;
+  text-decoration: none;
+  &:hover {
     color: $color-3;
-    font-size: 40px;
+  background: #deded7;
+  padding: 5px 20px;
+  border-radius: 55px;
+  transition: 0.4s;
   }
-
-  ul, input, button {
-
-    font-size: 26px;
-  }
-
-  .footer {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 10px;
-    padding: 0px 39px;
-    
-
-  }
-
-  #root > div > div.footer > h2 > a {
-    margin-top: 30px;
-    font-size: 26px;
-    color: $color-1;
-    text-decoration: none;
-    &:hover {
-      color: $color-3;
-    background: #deded7;
-    padding: 5px 20px;
-    border-radius: 55px;
-    transition: 0.4s;
-    }
-
-  }
+}
 
 
-  .imgFooter {
-
-    width: 15%;
-    
-  }
+.imgFooter {
+  width: 15%;
+}
