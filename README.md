@@ -55,28 +55,24 @@ json {
 
 # Voici la signification des différentes propriétés de l'objet :
 
-id : L'identifiant unique du villageois.
-file-name : Le nom du fichier de l'image du villageois.
-name : Les différentes traductions du nom du villageois dans différentes langues.
-personality : La personnalité du villageois.
-birthday : La date de naissance du villageois.
-species : L'espèce du villageois.
-gender : Le genre du villageois.
-catch-phrase : La phrase de signature du villageois.
-hobby : Le passe-temps du villageois.
-image_uri : L'URL de l'image représentant le villageois.
-icon_uri : L'URL de l'icône représentant le villageois.
-bubble-color : La couleur de la bulle de dialogue du villageois.
-text-color : La couleur du texte de la bulle de dialogue du villageois.
-saying : La citation caractéristique du villageois.
-catch-translations : Les traductions de la phrase de signature du villageois dans différentes langues.
-museum-phrase : La phrase spécifique du villageois lorsqu'il est exposé dans le musée.
-image : Le nom du fichier de l'image du villageois (utilisé dans l'API pour construire l'URL de l'image).
-icon : Le nom du fichier de l'icône du villageois (utilisé dans l'API pour construire l'URL de l'icône).
-
-Ces informations fournissent divers détails sur chaque villageois, tels que leur nom, leur personnalité, leur espèce, leur genre, leur date de naissance, leur passe-temps, leur citation, leur image, etc. Vous pouvez utiliser ces informations pour afficher les détails spécifiques de chaque villageois dans votre application Animal Crossing.
-
-
+* id : L'identifiant unique du villageois.
+* file-name : Le nom du fichier de l'image du villageois.
+* name : Les différentes traductions du nom du villageois dans différentes langues.
+* personality : La personnalité du villageois.
+* birthday : La date de naissance du villageois.
+* species : L'espèce du villageois.
+* gender : Le genre du villageois.
+* catch-phrase : La phrase de signature du villageois.
+* hobby : Le passe-temps du villageois.
+* image_uri : L'URL de l'image représentant le villageois.
+* icon_uri : L'URL de l'icône représentant le villageois.
+* bubble-color : La couleur de la bulle de dialogue du villageois.
+* text-color : La couleur du texte de la bulle de dialogue du villageois.
+* saying : La citation caractéristique du villageois.
+* catch-translations : Les traductions de la phrase de signature du villageois dans différentes langues.
+* museum-phrase : La phrase spécifique du villageois lorsqu'il est exposé dans le musée.
+* image : Le nom du fichier de l'image du villageois (utilisé dans l'API pour construire l'URL de l'image).
+* icon : Le nom du fichier de l'icône du villageois (utilisé dans l'API pour construire l'URL de l'icône).
 
 
 
